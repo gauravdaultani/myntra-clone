@@ -15,10 +15,11 @@
  
 header{
     display: flex; 
-    background-color:antiquewhite;
+    background-color:#ffffff;
     height: 80px;
     justify-content: space-between;
     align-items: center;
+    border-bottom:1px solid #b6b1b1; 
 }
 .myntra_home{
     height:45px;
@@ -41,13 +42,20 @@ header{
     font-weight: 700;
     text-transform:uppercase;
     text-decoration: none;
-}.nav_bar a sup{
+    padding:28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+.nav_bar a sup{
     color:#ff3f6c;
     font-size: 10px;
 }
 .search_bar{
     height: 40px;
-    min-width:400px;
+    min-width:200px;
+    width:30%;           
     display:flex;
     align-items:center;
 }
@@ -71,10 +79,66 @@ header{
 }
 .action_bar{
     display:flex;
+    align-items: center;
+    justify-content: center;
     width: 10vw;
     flex-direction: row;
 }
 
 .fa-magnifying-glass{
     scale: .8;
+}
+ 
+
+/* main section */
+.bannner_container{
+    margin: 40px 0;
+}
+.banner_image{
+    width:100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color:#3e4152;
+    letter-spacing: .15em;
+    font-size:1.2 em;
+    margin:50px 0 10px 30px;
+    max-height:5em;
+    font-weight:700;
+}
+.category_items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width:225px;
+
+}
+.footer_container{
+    padding: 30px 0 40px o;
+    background-color: #fafbfc;
+    display:flex;
+    justify-content: space-evenly;
+    padding:25px;
+}
+.footer_coloumn{
+    display:flex;
+    flex-direction: column ;
+}
+.footer_coloumn a{
+    color:#696b79;
+    font-sixe:15px;
+    text-decoration:none;
+    padding-bottom: 5px;
+}
+.footer_coloumn h3{
+    color:#282c3f;
+    font-size:14px;
+    margin-bottom:25px;
+}
+.copyright{
+    color:#94969f;
+    text-align:end;
+    padding:15px;
 }
