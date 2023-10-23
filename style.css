@@ -120,10 +120,13 @@ header{
 }
 .sale_item{
     width:225px;
-    transition: transform .2s;
+    border-radius: 10px;
+    
 }
  .sale_item:hover {
         transform: scale(1.2); 
+        transition: transform .2s;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
     /* footer section */
