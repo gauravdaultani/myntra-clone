@@ -117,6 +117,8 @@ header{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .sale_item{
     width:225px;
@@ -124,8 +126,9 @@ header{
     
 }
  .sale_item:hover {
-        transform: scale(1.2); 
-        transition: transform .2s;
+        transform: scale(1.2);        
+        transition: all ease-in-out;
+        transition: linear transform .3s;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
